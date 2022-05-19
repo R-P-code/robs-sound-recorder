@@ -1,3 +1,4 @@
+//GUI function declarations
 
 
 void load_GLADE_build_file();
