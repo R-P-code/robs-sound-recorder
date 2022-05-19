@@ -676,7 +676,7 @@ void make_dialog_save(GObject* f_dialog) {
 //change dialog button label to save
 void label_to_save(GObject* b) {
 
-		gtk_button_set_label (GTK_BUTTON(b), "Save");
+	gtk_button_set_label (GTK_BUTTON(b), "Save");
 
 }
 
