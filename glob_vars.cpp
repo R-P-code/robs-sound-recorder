@@ -29,12 +29,15 @@ const int MAX_RECORDING_MINUTES = 20;
 //Maximum recording time plus padding
 const int RECORDING_BUFFER_SECONDS = MAX_RECORDING_MINUTES*60 + 5;
 
+
+
 //Recorder states
 const int STOPPED = 0;
 const int PLAYING = 1;
 const int RECORDING = 2;
 const int PAUSED = 3;
 int current_state = STOPPED;
+
 
 
 //Amount of recording and playback devices detected
