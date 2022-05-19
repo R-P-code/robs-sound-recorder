@@ -1,4 +1,4 @@
-//Simple sound recorder with GUI.
+//Simple sound recorder using GTK for the GUI and SDL for the audio recording and playback functions.
 
 
 #include <gtk/gtk.h>
