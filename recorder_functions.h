@@ -1,17 +1,10 @@
+//Recorder function declarations
 
-
-
-//Function declarations
 
 bool init_SDL_audio();
 
 
 bool process_audio(); //Main function
-
-
-
-
-
 
 
 void set_track_position(int new_pos);
@@ -38,14 +31,7 @@ double calculate_pos_minutes();
 double calculate_end_minutes();
 
 
-
-
-
-
 void close_SDL();
-
-
-
 
 
 void audioRecordingCallback( void* userdata, Uint8* stream, int len );
@@ -54,15 +40,7 @@ void audioRecordingCallback( void* userdata, Uint8* stream, int len );
 void audioPlaybackCallback( void* userdata, Uint8* stream, int len );
 
 
-
-
-
-
 void set_end_of_recording();
-
-
-
-
 
 
 void load_mic();
@@ -71,15 +49,10 @@ void load_mic();
 void load_speakers();
 
 
-
-
 void update_if_recording();
 
 
 void update_if_playing();
-
-
-
 
 
 void stop();
@@ -92,12 +65,6 @@ void record();
 
 
 void play();
-
-
-
-
-
-
 
 
 int read_wav_file();
@@ -128,11 +95,4 @@ void set_data_size(exp_wav_hdr& wav_hdr);
 
 
 bool output_recording_into_file();
-
-
-
-
-
-
-
 
